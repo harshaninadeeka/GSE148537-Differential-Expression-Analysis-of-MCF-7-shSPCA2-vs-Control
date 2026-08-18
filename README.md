@@ -26,9 +26,7 @@ Using the thresholds:Adjusted P-value < 0.05, |log2FC| ≥ 1
 
 # The analysis identified:
 
-76 upregulated probe-level results
-15 downregulated probe-level results
-91 significant probe-level results in total
+76 upregulated probe-level results, 15 downregulated probe-level results, 91 significant probe-level results in total
 
 # R Packages
 affy, GEOquery, limma,hgu133plus2.db, AnnotationDbi, tidyverse
@@ -37,13 +35,7 @@ affy, GEOquery, limma,hgu133plus2.db, AnnotationDbi, tidyverse
 
 The next stages of the analysis will include:
 
-Quality control and PCA
-Sample correlation analysis
-Heatmap of DEGs
-Volcano plot
-Gene Ontology (GO) enrichment
-KEGG pathway enrichment
-Biological interpretation of shSPCA2-associated transcriptional changes
+Quality control and PCA, Sample correlation analysis, Heatmap of DEGs, Volcano plot, Gene Ontology (GO) enrichment, KEGG pathway enrichment, Biological interpretation of shSPCA2-associated transcriptional changes
 
 Note: The experiment contains only two biological replicates per condition, so the results should be interpreted with consideration of the limited sample size.
 
