@@ -14,11 +14,7 @@ Downloaded raw Affymetrix CEL files from GEO, Read the CEL files using the affy 
 
 # Experimental Design
 
-There were four biological samples:
-MCF-7 shRNA control biological replicate 1	Control
-MCF-7 shRNA control biological replicate 2	Control
-MCF-7 shSPCA2 biological replicate 1	shSPCA2
-MCF-7 shSPCA2 biological replicate 2	shSPCA2
+There were four biological samples:MCF-7 shRNA control biological replicate 1	Control, MCF-7 shRNA control biological replicate 2	Control, MCF-7 shSPCA2 biological replicate 1	shSPCA2, MCF-7 shSPCA2 biological replicate 2	shSPCA2
 
 # Differential Expression Results
 shSPCA2VsControl = shSPCA2 - Control
