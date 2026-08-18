@@ -18,7 +18,7 @@ There were four biological samples:MCF-7 shRNA control biological replicate 1	Co
 
 # Differential Expression Results
 shSPCA2VsControl = shSPCA2 - Control
-Therefore:
+
 
 Positive log2FC → higher expression in shSPCA2
 Negative log2FC → lower expression in shSPCA2
