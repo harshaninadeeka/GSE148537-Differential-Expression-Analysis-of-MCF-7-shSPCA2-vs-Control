@@ -20,13 +20,9 @@ There were four biological samples:MCF-7 shRNA control biological replicate 1	Co
 shSPCA2VsControl = shSPCA2 - Control
 
 
-Positive log2FC → higher expression in shSPCA2
-Negative log2FC → lower expression in shSPCA2
+Positive log2FC → higher expression in shSPCA2, Negative log2FC → lower expression in shSPCA2
 
-Using the thresholds:
-
-Adjusted P-value < 0.05
-|log2FC| ≥ 1
+Using the thresholds:Adjusted P-value < 0.05, |log2FC| ≥ 1
 
 # The analysis identified:
 
@@ -35,12 +31,7 @@ Adjusted P-value < 0.05
 91 significant probe-level results in total
 
 # R Packages
-affy
-GEOquery
-limma
-hgu133plus2.db
-AnnotationDbi
-tidyverse
+affy, GEOquery, limma,hgu133plus2.db, AnnotationDbi, tidyverse
 
 # Next Steps
 
