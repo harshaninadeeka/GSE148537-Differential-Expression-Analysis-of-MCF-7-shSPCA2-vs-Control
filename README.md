@@ -10,20 +10,7 @@ The aim is to identify genes that are differentially expressed between shSPCA2 a
 # Analysis Workflow
 
 The analysis was performed in R using the following workflow:
-Downloaded raw Affymetrix CEL files from GEO.
-Read the CEL files using the affy package.
-Performed RMA normalization.
-Created experimental groups based on the sample phenotype.
-Constructed a design matrix using limma.
-Created the contrast:shSPCA2 - Control
-Performed differential expression analysis using the limma linear model.
-Applied empirical Bayes moderation using eBayes().
-Annotated Affymetrix probe IDs using hgu133plus2.db.
-Filtered significant DEGs using:
-Adjusted P-value < 0.05
-|log2 Fold Change| ≥ 1
-Separated genes into upregulated and downregulated groups.
-Saved the results as separate CSV files.
+Downloaded raw Affymetrix CEL files from GEO, Read the CEL files using the affy package, Performed RMA normalization, Created experimental groups based on the sample phenotype, Constructed a design matrix using limma, Created the contrast:shSPCA2 - Control, Performed differential expression analysis using the limma linear model, Applied empirical Bayes moderation using eBayes()., Annotated Affymetrix probe IDs using hgu133plus2.db., Filtered significant DEGs using:Adjusted P-value < 0.05,|log2 Fold Change| ≥ 1, Separated genes into upregulated and downregulated groups, Saved the results as separate CSV files.
 
 # Experimental Design
 
